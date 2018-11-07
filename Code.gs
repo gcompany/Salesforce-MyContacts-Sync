@@ -5,7 +5,7 @@ var CLIENT_EMAIL = "";
 function syncUsers(){
   //set the users that needs to sync the salesforce contact groups with myContacts
   
-  var userList = ['balt@gcompany.nl']
+  var userList = ['name@example.com','name2@example.com']
   for (var i in userList){
     contactSyncSF(userList[i]);
   }
