@@ -1,8 +1,16 @@
-# Salesforce-MyContacts-Sync
+# Salesforce-MyContacts-Sync Setup:
 
-## Add libary to the project
-Before using this script you will need to add the apps script oauth2 library to the project.
-https://github.com/gsuitedevs/apps-script-oauth2/
+## 1. Create a new google apps script.
+1. Go to: https://script.google.com
+2. Click "New > New script..."
+3. Copy the code from [Code.gs](../master/Code.gs) into the newly created script and save the script
+
+## 2 Add libary to the project
+Before using this script you will need to add the apps script [oauth2 library](https://github.com/gsuitedevs/apps-script-oauth2) to the project.
+1. Click on the menu item "Resources > Libraries..."
+2. In the "Find a Library" text box, enter the script ID 1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF and click the "Select" button.
+3. Choose a version in the dropdown box (usually best to pick the latest version).
+4. Click the "Save" button.
 
 ## Create Service account
 You also need a google cloud service account to do the API calls.
